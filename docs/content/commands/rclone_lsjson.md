@@ -211,7 +211,7 @@ rclone lsjson remote:path [flags]
   -n, --dry-run                                      Do a trial run with no permanent changes
       --dump DumpFlags                               List of items to dump from: headers,bodies,requests,responses,auth,filters,goroutines,openfiles
       --dump-bodies                                  Dump HTTP headers and bodies - may contain sensitive info
-      --dump-headers                                 Dump HTTP bodies - may contain sensitive info
+      --dump-headers                                 Dump HTTP headers - may contain sensitive info
       --exclude stringArray                          Exclude files matching pattern
       --exclude-from stringArray                     Read exclude patterns from file
       --exclude-if-present string                    Exclude directories if filename is present
